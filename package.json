@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/charlesholbrow/music-mine#readme",
   "dependencies": {
-    "get": "^1.4.0"
+    "request": "^2.67.0"
   }
 }
