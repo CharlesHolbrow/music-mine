@@ -76,19 +76,3 @@ module.exports.echo = function(path, options, filename, callback){
     request(fullRequestUrl, requestCallback)
   }
 }
-
-
-var opts = {
-  bucket: ['audio_summary']
-  , id:     'TRTLKZV12E5AC92E11'
-}
-
-module.exports.echo(
-  'api/v4/track/profile'
-  , opts
-  , path.join(__dirname, 'data/results.json')
-  , (err, json)=>{
-    console.log("ERR:",err)
-    console.log("JSON:", json)
-  }
-)
